@@ -1,9 +1,23 @@
+:root {
+  --color-background: #eff9fa;
+  --color-primary: #82d0db;
+  --color-primary-text: #59c1cf;
+  --color-text: #20656f;
+  --color-text-white: #fefefe;
+  --color-gray: #cccccc;
+
+  --font-family: "Roboto", Segoe UI, sans-serif;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
+  color: var(--color-text);
+  font-family: var(--font-family);
+
+  background-color: var(--color-background);
 }
 
 a {
