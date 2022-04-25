@@ -5,6 +5,8 @@
   --color-text: #20656f;
   --color-text-white: #fefefe;
   --color-gray: #cccccc;
+  --color-shadow-green: hsla(187, 55%, 28%, 0.1);
+  --color-shadow-gray: hsla(0, 0%, 6%, 0.1);
 
   --font-family: "Roboto", Segoe UI, sans-serif;
 }
@@ -18,6 +20,9 @@ body {
   font-family: var(--font-family);
 
   background-color: var(--color-background);
+
+  width: 100vw;
+  height: 100vh;
 }
 
 a {
@@ -27,4 +32,24 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.button{
+  background-color: var(--color-primary);
+  color: var(--color-text-white);
+  padding: 0.825rem 1.25rem;
+  border-radius: 1.5rem;
+}
+.button:hover{
+  background-color: var(--color-primary-text);
+}
+.button:focus{
+  background-color: var(--color-text);
+}
+
+.shadow-green{
+  box-shadow: 4px 4px 20px 0 var(--color-shadow-green);
+}
+.shadow-gray{
+  box-shadow: 4px 4px 20px 0 var(--color-shadow-gray);
 }

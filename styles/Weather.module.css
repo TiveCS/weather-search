@@ -1,0 +1,23 @@
+.form{
+
+}
+
+.weather-contents{
+    
+}
+
+.weather-submit{
+    border: none;
+    margin-left: 2rem;
+}
+
+.weather-input{
+    width: 40%;
+
+    padding: 0.825rem;
+    padding-left: 2rem;
+
+    border-style: solid;
+    border-color: var(--color-gray);
+    border-radius: 100rem;
+}

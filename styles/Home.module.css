@@ -1,0 +1,21 @@
+.tagline{
+    text-align: center;
+    font-weight: 500;
+    font-size: 3rem;
+
+    line-height: 1.5;
+}
+
+.subtagline{
+    color: var(--color-primary-text);
+}
+
+.container{
+    height: 80%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

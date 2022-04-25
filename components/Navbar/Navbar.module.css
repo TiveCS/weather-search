@@ -1,0 +1,31 @@
+.nav {
+    position: fixed;
+
+    background-color: var(--color-text-white);
+    width: 100vw;
+
+    padding: 1rem 6rem;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navs {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.navs-logo {
+    margin-right: 3rem;
+}
+
+.navs-item {
+    font-weight: 500;
+    margin: 0 1rem;
+}
